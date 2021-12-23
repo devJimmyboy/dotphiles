@@ -1,0 +1,65 @@
+#!/bin/sh
+
+VSCODE=code-insiders
+
+# ---------- Antigen ----------
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle zsh-users/zsh-completions
+antigen bundle zpm-zsh/colors
+
+antigen bundles <<EOBUNDLES
+        cheatsheet
+        git
+        git-lfs
+        github
+        gh
+        gitignore
+        aliases
+        common-aliases
+        command-not-found
+        emoji
+        encode64
+        alias-finder
+        copydir
+        copyfile
+        history
+        dirhistory
+        frontend-search
+        jsontools
+        node
+        npm
+        nvm
+        pip
+        pipenv
+        pnpm
+        python
+        safe-paste
+        sfffe
+        sprunge
+        systemd
+        ubuntu
+        urltools
+        vscode
+        yarn
+        z
+
+
+        #! Custom Plugins
+        #
+        psprint/zsh-navigation-tools
+        djui/alias-tips
+        zsh-users/zsh-autosuggestions
+        Tarrasch/zsh-autoenv
+        vmattos/kill-node
+        zpm-zsh/ls
+        zpm-zsh/helpers
+        zpm-zsh/check-deps
+        molovo/crash
+        zsh-users/zsh-syntax-highlighting
+        # MUST BE LAST BUNDLE
+EOBUNDLES
+
+antigen theme romkatv/powerlevel10k
+
+antigen apply
