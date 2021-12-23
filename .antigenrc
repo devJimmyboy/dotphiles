@@ -1,26 +1,31 @@
-#!/bin/sh
-
+# ENV Vars
 VSCODE=code-insiders
 
 # ---------- Antigen ----------
 
+# Load the oh-my-zsh's library
+antigen use oh-my-zsh
+
+#! Bundles & Plugins
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 antigen bundle zpm-zsh/colors
 
 antigen bundles <<EOBUNDLES
-        cheatsheet
+
+        # oh-my-zsh plugins
         git
         git-lfs
         github
         gh
         gitignore
         aliases
-        common-aliases
         command-not-found
+        docker
+        docker-compose
         emoji
         encode64
-        alias-finder
+        thefuck
         copydir
         copyfile
         history
@@ -31,8 +36,6 @@ antigen bundles <<EOBUNDLES
         npm
         nvm
         pip
-        pipenv
-        pnpm
         python
         safe-paste
         sfffe
@@ -44,22 +47,23 @@ antigen bundles <<EOBUNDLES
         yarn
         z
 
-
-        #! Custom Plugins
-        #
-        psprint/zsh-navigation-tools
+        # Custom Plugins (Community)
+        # Custom Plugins (Community)
         djui/alias-tips
-        zsh-users/zsh-autosuggestions
         Tarrasch/zsh-autoenv
-        vmattos/kill-node
-        zpm-zsh/ls
         zpm-zsh/helpers
         zpm-zsh/check-deps
         molovo/crash
-        zsh-users/zsh-syntax-highlighting
-        # MUST BE LAST BUNDLE
-EOBUNDLES
 
+        # Always last for all autosuggestions possible
+        zsh-users/zsh-autosuggestions
+
+EOBUNDLES
+#! End Bundles & Plugins
+
+# Powerlevel10k Theme - epic theme
 antigen theme romkatv/powerlevel10k
 
+
+# Tell antigen that you're done
 antigen apply
