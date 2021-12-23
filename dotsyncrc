@@ -18,7 +18,7 @@
 [files]
 # Uncomment examples below
 dotsyncrc
-#ack/ackrc
+ack/ackrc
 #aptitude
 #bin:bin
 #ctags/ctags
@@ -57,23 +57,23 @@ dotsyncrc
 #screen/screenrc
 #shell/hushlogin
 #shell/urlview
-#ssh
+ssh
 #subversion
 #task/task
 #task/taskrc
 #tmux/tmux.conf
 #tmux/tmuxinator
-#vim/dotvim:.vim
-#vim/vimrc
+vim/dotvim:.vim
+vim/vimrc
 #vim/gvimrc
 #wget/wgetrc
 #zsh/fasdrc
-#zsh/dotzsh:.zsh
+zsh/dotzsh:.zsh
 #zsh/zlogin
 #zsh/zlogout
 #zsh/zprofile
-#zsh/zshenv
-#zsh/zshrc
+zsh/zshenv
+zsh/zshrc
 [endfiles]
 
 # Hosts to sync
