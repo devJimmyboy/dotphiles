@@ -42,7 +42,7 @@ antigen bundles <<EOBUNDLES
         urltools
         vscode
         yarn
-        z
+        
 
 
         #! Custom Plugins
