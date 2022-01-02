@@ -57,7 +57,7 @@ ack/ackrc
 #screen/screenrc
 #shell/hushlogin
 #shell/urlview
-ssh
+#ssh
 #subversion
 #task/task
 #task/taskrc
@@ -73,12 +73,13 @@ zsh/dotzsh:.zsh
 #zsh/zlogout
 #zsh/zprofile
 zsh/zshenv
-zsh/zshrc
+zshrc
 [endfiles]
 
 # Hosts to sync
-## hostname                     type=masterhost, ANY or NONE    files=dotfile:tolink,another:tolink
+JimmyPC                     type=masterhost
 [hosts]
+ubuntu-jimmyboy-vps          git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere
