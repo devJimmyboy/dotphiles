@@ -76,9 +76,10 @@ zsh/zshenv
 zshrc
 [endfiles]
 
+
+[hosts]
 # Hosts to sync
 JimmyPC                     type=masterhost
-[hosts]
 ubuntu-jimmyboy-vps          git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
@@ -90,4 +91,5 @@ ubuntu-jimmyboy-vps          git=ANY
 #host8.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 #host9.example.net               rsync=host2.example.com                                #rsync mirror, push from host2
 [endhosts]
+
 
