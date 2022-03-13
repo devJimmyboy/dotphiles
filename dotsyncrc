@@ -8,7 +8,7 @@
 #
 
 # Location of your dotfiles in $HOME
-# DOTFILES=.dotfiles
+DOTFILES=.dotfiles
 
 # dotfiles to symlink
 #
@@ -73,6 +73,7 @@ zsh/dotzsh:.zsh
 #zsh/zlogout
 #zsh/zprofile
 zsh/zshenv
+antigenrc
 zshrc
 [endfiles]
 
@@ -80,7 +81,8 @@ zshrc
 [hosts]
 # Hosts to sync
 JimmyPC                     type=masterhost
-ubuntu-jimmyboy-vps          git=ANY
+ubuntu-jimmyboy-vps         git=ANY
+raspberrypi                 git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere
