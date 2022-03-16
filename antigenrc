@@ -1,5 +1,5 @@
-# ENV Vars
-VSCODE=code-insiders
+#!/bin/sh
+# ENV Vars (None anymore)
 
 # ---------- Antigen ----------
 
@@ -26,7 +26,7 @@ antigen bundles <<EOBUNDLES
         emoji
         encode64
         thefuck
-        copydir
+        copypath
         copyfile
         history
         dirhistory
