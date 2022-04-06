@@ -66,6 +66,5 @@ EOBUNDLES
 # Powerlevel10k Theme - epic theme
 antigen theme romkatv/powerlevel10k
 
-
 # Tell antigen that you're done
 antigen apply

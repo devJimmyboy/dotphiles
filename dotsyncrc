@@ -19,6 +19,7 @@ DOTFILES=.dotfiles
 # Uncomment examples below
 dotsyncrc
 ack/ackrc
+gh
 #aptitude
 #bin:bin
 #ctags/ctags
@@ -57,7 +58,7 @@ ack/ackrc
 #screen/screenrc
 #shell/hushlogin
 #shell/urlview
-#ssh
+ssh
 #subversion
 #task/task
 #task/taskrc
