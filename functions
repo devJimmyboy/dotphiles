@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Converts all files with $Input extension to $Output extension
+function ffdir() {
+ for i in ./*.$1; do ffmpeg -i "$i" "${i%.*}.$2"; done;
+}
+
+function mvto() {
+  for i in ./*.$1; do mv "$i" "$2"; done;
+}
