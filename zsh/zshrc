@@ -112,3 +112,5 @@ source "$DOTZSH/init.zsh"
 
 ### Customize to your needs...
 
+
+alias pj='npx projen'
