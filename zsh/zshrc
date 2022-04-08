@@ -116,7 +116,7 @@ alias pj='npx projen'
 
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
-ANTIGEN_PATH="$HOME/.dotfiles/antigen"
+export ANTIGEN_PATH="$HOME/.dotfiles/antigen"
 source $ANTIGEN_PATH/antigen.zsh
 antigen init $HOME/.antigenrc
 
@@ -128,5 +128,6 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 eval "$(pyenv init -)"
+eval "$(pyenv init-virtualenv -)"
 
 source ~/.zshfuncs
