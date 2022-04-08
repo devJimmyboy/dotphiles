@@ -21,7 +21,7 @@ dotsyncrc
 ack/ackrc
 gh
 #aptitude
-#bin:bin
+bin:bin
 #ctags/ctags
 #cmus
 #curl/curlrc
