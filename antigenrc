@@ -45,25 +45,26 @@ antigen bundles <<EOBUNDLES
         urltools
         vscode
         yarn
-        
+
 
         # Custom Plugins (Community)
         # Custom Plugins (Community)
-        djui/alias-tips
         Tarrasch/zsh-autoenv
         zpm-zsh/helpers
         zpm-zsh/check-deps
         molovo/crash
+        MichaelAquilina/zsh-you-should-use
+        momo-lab/zsh-abbrev-alias
 
         # Always last for all autosuggestions possible
         zsh-users/zsh-autosuggestions
+        
 
 EOBUNDLES
 #! End Bundles & Plugins
 
 # Powerlevel10k Theme - epic theme
 antigen theme romkatv/powerlevel10k
-
 
 # Tell antigen that you're done
 antigen apply

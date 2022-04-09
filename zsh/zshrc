@@ -19,15 +19,15 @@ zstyle ':dotzsh:load' zfunction 'zargs' 'zmv'
 
 # Set the dotzsh modules to load (browse modules).
 # The order matters.
-zstyle ':dotzsh:load' dzmodule \
-  'gnu-utility' \
-  'environment' \
-  'terminal' \
-  'editor' \
-  'history' \
-  'utility' \
-  'completion' \
-  'theme'
+#zstyle ':dotzsh:load' dzmodule \
+#  'gnu-utility' \
+#  'environment' \
+#  'terminal' \
+#  'editor' \
+#  'history' \
+#  'utility' \
+#  'completion' \
+#  'theme'
 
 ### Global settings
 # Color output (auto set to 'no' on dumb terminals).
@@ -49,7 +49,7 @@ zstyle ':dotzsh:module:terminal' auto-title 'yes'
 
 ### Editor module
 # Set the key mapping style to 'emacs' or 'vi'.
-zstyle ':dotzsh:module:editor' keymap 'emacs'
+zstyle ':dotzsh:module:editor' keymap 'vi'
 # Set EDITOR to 'emacs' or 'vi'.
 zstyle ':dotzsh:module:editor' editor 'vi'
 # Auto convert .... to ../..
@@ -70,7 +70,7 @@ zstyle ':dotzsh:module:editor' editor 'vi'
 ### SSH module
 zstyle ':dotzsh:module:ssh:agent' forwarding 'yes'
 #zstyle ':dotzsh:module:ssh:aliases' hosts 'yes'
-##zstyle ':dotzsh:module:ssh:agent' identities 'id_rsa' 'id_rsa2' 'id_github'
+zstyle ':dotzsh:module:ssh:agent' identities 'id_rsa' 'id_rsa2' 'id_github'
 
 ### GNUPG module
 # Enable ssh-agent protocol emulation for gpg-agent
@@ -101,14 +101,33 @@ zstyle ':dotzsh:module:ssh:agent' forwarding 'yes'
 # Set default theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':dotzsh:module:theme' theme 'dotphiles'
+# zstyle ':dotzsh:module:theme' theme 'dotphiles'
 ### Set custom theme based on hostname or domain
 # zstyle ':dotzsh:module:theme:hostname:your-host-here' theme 'dotphiles' 'soldark' 'magenta'
 # zstyle ':dotzsh:module:theme:hostname:your-other-host-here' theme 'dotphiles' 'soldark' 'violet'
 # zstyle ':dotzsh:module:theme:domain:your-domain-here' theme 'dotphiles' 'soldark' 'orange'
 
 ### Load dotzsh
-source "$DOTZSH/init.zsh"
+# source "$DOTZSH/init.zsh"
 
 ### Customize to your needs...
 
+alias pj='npx projen'
+
+export XDG_CONFIG_HOME="$HOME/.dotfiles"
+
+export ANTIGEN_PATH="$HOME/.dotfiles/antigen"
+source $ANTIGEN_PATH/antigen.zsh
+antigen init $HOME/.antigenrc
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+export NVM_DIR="$XDG_CONFIG_HOME/nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
+
+eval "$(pyenv init -)"
+eval "$(pyenv init-virtualenv -)"
+
+source ~/.zshfuncs

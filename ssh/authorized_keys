@@ -1,11 +1,21 @@
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDLWHZZxuTcwmQJ3fTRggALmtg96E//tPmHTY911zj5TEbZR5nB+sFSIH6dGmqwOgMw9pUhHdYi+riStOGBkRTR/qCBCep9fT89gKytcLuIMtoE1IElQlhK5pyHrdxwM4QuNTLX2SBszd0JqFQ0FgDFzlKeNh4quRCrQtJFq66Ie881qMOaeokoDaagealkiXGOGSmRUZkW/dFJBiwhh4o+Hx+eTzCu633DErZw8aYyuWLJSsJDF1exUoK4gbDhsBaSGtNIloGCPjjp1iF6eYFncYi3IEFPxbBezl+NMzve6mHbQ8dcFgqySdXBCiCGyGHB5VqpAdcsPsNjG5L/t4OBVT3bLNjbdzhPnMySeDUWQrfY4EXuPcK47DRMRjofdfe2Z2Up681nWdH1cTPJaHNbQJW45ysy9rbK2hY/dreAbUDzLoKJTIDgO2Np1RKq48j/GHi1z/ysakcBIXHmq78rmtpq4rNOxxNttOWHSaFQONz0iqE96xVkvmGgUmJZTJU= jimmy@Jimmy-PC
+
 #
+
 # dotphiles : https://github.com/dotphiles/dotphiles
+
 #
+
 # Allow access from the following keys
+
 #
+
 # Authors:
-#   Ben O'Hara <bohara@gmail.com>
+
+# Ben O'Hara <bohara@gmail.com>
+
 #
 
 # Add your ssh key here
 
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIF7quA/SxbG2bG0L7KjAaKBWa7heYhJpF0Kk2Xj3XuWQ
