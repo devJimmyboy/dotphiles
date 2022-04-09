@@ -118,7 +118,7 @@ export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
 export ANTIGEN_PATH="$HOME/.dotfiles/antigen"
 source $ANTIGEN_PATH/antigen.zsh
-antigen init $HOME/.antigenrc
+antigen init "$HOME/.antigenrc"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -128,6 +128,6 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 eval "$(pyenv init -)"
-eval "$(pyenv init-virtualenv -)"
+eval "$(pyenv virtualenv-init -)"
 
 source ~/.zshfuncs
