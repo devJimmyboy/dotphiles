@@ -11,6 +11,7 @@
 ##zstyle ':dotzsh:load' timing 'yes'
 ##zstyle ':dotzsh:module:*' timing 'yes'
 
+source ~/.zprofile
 # Set the Zsh modules to load (man zshmodules).
 zstyle ':dotzsh:load' zmodule 'stat'
 
@@ -128,6 +129,8 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
 
 eval "$(pyenv init -)"
-eval "$(pyenv init-virtualenv -)"
+eval "$(pyenv virtualenv-init -)"
 
 source ~/.zshfuncs
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

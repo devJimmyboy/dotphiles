@@ -17,7 +17,6 @@ antigen bundles <<EOBUNDLES
         git
         git-lfs
         github
-        gh
         gitignore
         aliases
         command-not-found
