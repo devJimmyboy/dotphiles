@@ -68,6 +68,7 @@ antigen bundles <<EOBUNDLES
         andyrichardson/zsh-node-path
         erikced/zsh-pyenv-lazy-load
         momo-lab/zsh-abbrev-alias
+        jirutka/zsh-shift-select
 
         # Always last for all autosuggestions possible
         zsh-users/zsh-autosuggestions
