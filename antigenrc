@@ -52,8 +52,6 @@ antigen bundles <<EOBUNDLES
         # Custom Plugins (Community)
         # Tarrasch/zsh-autoenv
         zpm-zsh/figures
-        zpm-zsh/core-config
-        zpm-zsh/helpers
         zpm-zsh/check-deps
         zpm-zsh/ls
         zpm-zsh/undollar
