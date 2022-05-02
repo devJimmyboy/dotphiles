@@ -7,7 +7,7 @@
 #   Ben O'Hara <bohara@gmail.com>
 #
 
-alias pj='npx projen'
+# alias pj='npx projen'
 
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 

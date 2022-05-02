@@ -44,11 +44,9 @@ antigen bundles <<EOBUNDLES
         systemd
         ubuntu
         urltools
-        # vscode
         yarn
 
 
-        # Custom Plugins (Community)
         # Custom Plugins (Community)
         # Tarrasch/zsh-autoenv
         zpm-zsh/figures
@@ -57,15 +55,12 @@ antigen bundles <<EOBUNDLES
         zpm-zsh/undollar
         # molovo/crash
         Cloudstek/zsh-plugin-appup
-        unixorn/autoupdate-antigen.zshplugin
         MichaelAquilina/zsh-you-should-use
-        # oz/safe-paste
         changyuheng/fz
-        # mdumitru/fancy-ctrl-z
+        mdumitru/fancy-ctrl-z
         oldratlee/hacker-quotes
         andyrichardson/zsh-node-path
         erikced/zsh-pyenv-lazy-load
-        ntnyq/omz-plugin-pnpm
         momo-lab/zsh-abbrev-alias
         jirutka/zsh-shift-select
 
