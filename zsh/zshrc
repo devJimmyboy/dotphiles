@@ -26,3 +26,5 @@ export NVM_DIR="$XDG_CONFIG_HOME/nvm"
 
 source ~/.zshfuncs
 # source ~/.bindkeys
+
+eval "$(atuin init zsh)"
