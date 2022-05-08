@@ -7,7 +7,7 @@
 #   Ben O'Hara <bohara@gmail.com>
 #
 
-alias pj='npx projen'
+# alias pj='npx projen'
 
 export XDG_CONFIG_HOME="$HOME/.dotfiles"
 
@@ -30,3 +30,5 @@ source ~/.zshfuncs
 # tabtab source for packages
 # uninstall by removing these lines
 [[ -f ~/.config/tabtab/zsh/__tabtab.zsh ]] && . ~/.config/tabtab/zsh/__tabtab.zsh || true
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

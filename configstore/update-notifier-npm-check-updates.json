@@ -1,4 +1,14 @@
 {
 	"optOut": false,
+<<<<<<< HEAD
 	"lastUpdateCheck": 1650832682728
+=======
+	"lastUpdateCheck": 1651476533504,
+	"update": {
+		"latest": "12.5.11",
+		"current": "12.5.9",
+		"type": "patch",
+		"name": "npm-check-updates"
+	}
+>>>>>>> e040cb9c6bb9a18557afba0c7915fafa08a5aa20
 }
