@@ -58,7 +58,6 @@ antigen bundles <<EOBUNDLES
         MichaelAquilina/zsh-you-should-use
         changyuheng/fz
         mdumitru/fancy-ctrl-z
-        ellie/atuin
         oldratlee/hacker-quotes
         andyrichardson/zsh-node-path
         erikced/zsh-pyenv-lazy-load
