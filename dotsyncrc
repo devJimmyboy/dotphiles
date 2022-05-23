@@ -58,7 +58,7 @@ bin:bin
 #screen/screenrc
 #shell/hushlogin
 #shell/urlview
-ssh
+#ssh
 #subversion
 #task/task
 #task/taskrc
