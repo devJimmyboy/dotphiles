@@ -41,6 +41,6 @@ task/task/*.data
 *.zwc
 *.env
 __pycache__
-update-notifier-npm-check-updates.json
+configstore/update-notifier-npm-check-updates.json
 
 configstore/*.json
