@@ -1,9 +1,5 @@
 {
 	"optOut": false,
-<<<<<<< HEAD
-	"lastUpdateCheck": 1653621407093
-=======
-<<<<<<< HEAD
 	"lastUpdateCheck": 1659400920855,
 	"update": {
 		"latest": "16.0.5",
@@ -11,8 +7,4 @@
 		"type": "major",
 		"name": "npm-check-updates"
 	}
-=======
-	"lastUpdateCheck": 1658549970510
->>>>>>> 924686f8466e05daa14b1020a71b11c2e80d41db
->>>>>>> 79b1e90025a08d4c4cd0d437fd6955058a9b20fc
 }
