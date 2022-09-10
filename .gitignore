@@ -40,3 +40,4 @@ mutt/certificates
 task/task/*.data
 *.zwc
 *.env
+zsh/zshenv

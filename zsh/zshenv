@@ -13,7 +13,7 @@ unsetopt GLOBAL_RCS
 # Set the path to dotzsh.
 export DOTZSH="$HOME/.zsh"
 
-export GH_TOKEN = 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
+# export GH_TOKEN=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
 
 # Source environment settings
 source "$DOTZSH/env.zsh"
