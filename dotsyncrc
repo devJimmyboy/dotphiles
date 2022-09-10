@@ -58,7 +58,7 @@ bin:bin
 #screen/screenrc
 #shell/hushlogin
 #shell/urlview
-ssh
+#ssh
 #subversion
 #task/task
 #task/taskrc
@@ -66,7 +66,7 @@ ssh
 #tmux/tmuxinator
 vim/dotvim:.vim
 vim/vimrc
-#vim/gvimrc
+vim/gvimrc
 #wget/wgetrc
 #zsh/fasdrc
 zsh/dotzsh:.zsh
@@ -75,15 +75,17 @@ zsh/zlogout
 zsh/zprofile
 zsh/zshenv
 zsh/zshrc
+zsh/bindkeys
 antigenrc
 zsh/zshfuncs
 [endfiles]
 
 [hosts]
 # Hosts to sync
-JimmyPC                     type=masterhost
-ubuntu-jimmyboy-vps         git=ANY
-jimmyspi                    git=ANY
+JimmyPC type=masterhost
+ubuntu-jimmyboy-vps git=ANY
+jimmyspi git=ANY
+jimmy-desktop git=ANY
 #host1.example.com               git=ANY                        files=custom/dotfile    #git repo, pull from anywhere and link a custom dotfile
 #host2.example.com               git=ANY                                                #git repo, pull from anywhere
 #host3.example.com               git=ANY                                                #git repo, pull from anywhere

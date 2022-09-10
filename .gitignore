@@ -20,6 +20,7 @@ ssh/known_hosts
 ssh/master/*
 subversion/README.txt
 subversion/auth/*
+browsh
 gnupg/crls.d/*
 gnupg/openpgp-revocs.d/*
 gnupg/private-keys-v1.d/*
@@ -37,7 +38,11 @@ mutt/cache/*
 mutt/mailboxes.*
 mutt/smime/*
 mutt/certificates
+dconf
 task/task/*.data
 *.zwc
 *.env
 zsh/zshenv
+__pycache__
+
+configstore

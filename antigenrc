@@ -11,13 +11,15 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle zsh-users/zsh-completions
 antigen bundle zpm-zsh/colors
 
+# Powerlevel10k Theme - epic theme
+antigen theme romkatv/powerlevel10k
+
 antigen bundles <<EOBUNDLES
 
         # oh-my-zsh plugins
         git
         git-lfs
         github
-        gh
         gitignore
         aliases
         command-not-found
@@ -37,24 +39,30 @@ antigen bundles <<EOBUNDLES
         nvm
         pip
         python
-        safe-paste
         sfffe
         sprunge
         systemd
         ubuntu
         urltools
-        vscode
         yarn
 
 
         # Custom Plugins (Community)
-        # Custom Plugins (Community)
-        Tarrasch/zsh-autoenv
-        zpm-zsh/helpers
+        # Tarrasch/zsh-autoenv
+        zpm-zsh/figures
         zpm-zsh/check-deps
-        molovo/crash
+        zpm-zsh/ls
+        zpm-zsh/undollar
+        # molovo/crash
+        Cloudstek/zsh-plugin-appup
         MichaelAquilina/zsh-you-should-use
+        changyuheng/fz
+        mdumitru/fancy-ctrl-z
+        oldratlee/hacker-quotes
+        andyrichardson/zsh-node-path
+        erikced/zsh-pyenv-lazy-load
         momo-lab/zsh-abbrev-alias
+        jirutka/zsh-shift-select
 
         # Always last for all autosuggestions possible
         zsh-users/zsh-autosuggestions
@@ -62,9 +70,6 @@ antigen bundles <<EOBUNDLES
 
 EOBUNDLES
 #! End Bundles & Plugins
-
-# Powerlevel10k Theme - epic theme
-antigen theme romkatv/powerlevel10k
 
 # Tell antigen that you're done
 antigen apply
