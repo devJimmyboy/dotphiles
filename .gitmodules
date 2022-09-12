@@ -13,9 +13,6 @@
 [submodule "zsh/dotzsh"]
 	path = zsh/dotzsh
 	url = https://github.com/dotphiles/dotzsh.git
-[submodule "vim/dotvim"]
-	path = vim/dotvim
-	url = https://github.com/dotphiles/dotvim.git
 [submodule "antigen"]
 	path = antigen
     url = https://github.com/zsh-users/antigen.git
