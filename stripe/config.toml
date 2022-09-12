@@ -1,0 +1,10 @@
+color = ""
+
+[default]
+  account_id = "acct_19Fa44Cq0hGPzbn2"
+  device_name = "ubuntu-jimmyboy-vps"
+  display_name = "jimmyboy.dev"
+  live_mode_api_key = "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"
+  live_mode_publishable_key = "pk_live_Js2vuDxbeMLAE11o3HdCbKgu"
+  test_mode_api_key = "rk_test_519Fa44Cq0hGPzbn2c8f0awIFGmUyB5Keg1H7cPzB6hAle9tsMZRtkE5BgUrZPug5OcPdDXzBDQyxJ74f4ed7smVE00wnVYZqV3"
+  test_mode_publishable_key = "pk_test_otSArruhx6klrfSutNv3Jr7V"
