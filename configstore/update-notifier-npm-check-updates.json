@@ -1,14 +1,10 @@
 {
 	"optOut": false,
-<<<<<<< Updated upstream
-	"lastUpdateCheck": 1655694470877,
+	"lastUpdateCheck": 1659400920855,
 	"update": {
-		"latest": "14.0.1",
-		"current": "13.1.1",
+		"latest": "16.0.5",
+		"current": "14.1.1",
 		"type": "major",
 		"name": "npm-check-updates"
 	}
-=======
-	"lastUpdateCheck": 1655745760961
->>>>>>> Stashed changes
 }
