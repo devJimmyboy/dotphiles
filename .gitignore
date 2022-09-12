@@ -3,7 +3,7 @@
 #
 # Ignore these files globally in this repo.
 #
-
+node_modules
 *.swp
 .DS_Store
 *~
