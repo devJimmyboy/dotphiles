@@ -43,6 +43,8 @@ task/task/*.data
 *.zwc
 *.env
 zsh/zshenv
+stripe
+vim/dotvim/plugged
 __pycache__
 
 configstore
